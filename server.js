@@ -1,5 +1,5 @@
 const express = require('express');
-const app = express();  
+const app = express();
 const cors = require('cors');
 const authRoute = require('./routes/auth.route');
 const contactRoute = require('./routes/contact.route');
@@ -16,6 +16,6 @@ app.use(function (req, res, next) {
 app.use('/auth', authRoute);
 app.use('/contact', contactRoute);
 
-app.listen(5000, () => {
-  console.log("Server is running on port 5000");
-})
+app.listen(6310, () => {
+  console.log('Server is running on port 6310');
+});
