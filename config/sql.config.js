@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 const pool = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "advocate_panel",
+  host: 'localhost',
+  user: 'admin',
+  password: 'jrclmX5S4mddKHOR',
+  database: 'advocate_panel',
 });
 
 pool.getConnection((err, connection) => {
